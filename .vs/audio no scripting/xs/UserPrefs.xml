@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{C1BD0F41-D4C8-4170-CD98-3FE0FEAF4244}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GenericTrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GenericTrigger.cs" Line="30" Column="2" />
+      <File FileName="Assets/Scripts/RandomAudioTrigger.cs" Line="24" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AudioMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 245898634684037086}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 8aba155a9b21740779af2279a7dd37f3
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 8aba155a9b21740779af2279a7dd37f3
+  m_Children: []
+  m_Volume: 4076e1dd191bb43be80df9aedc8a36b7
+  m_Pitch: b8494c7f65845471b8fbf8ee51a276fd
+  m_Effects:
+  - {fileID: 24400004}
+  - {fileID: 244085923481856428}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 189a16a341d4b43d9beb3c06609c8bd9
+  m_EffectName: Attenuation
+  m_MixLevel: e1b45a79bff864b56ba37ec7e4537671
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 1
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 71df1ed79a05648f79911bc1bf267708
+  m_FloatValues:
+    b30050a80503d4689afe17da39470c67: -1437
+    4076e1dd191bb43be80df9aedc8a36b7: 0.025578514
+    822df9ef522d24755b4eb145fb05965f: -10000
+  m_TransitionOverrides: {}
+--- !u!244 &244085923481856428
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: f242e2765a0b64e8e9303d0005b1bffa
+  m_EffectName: SFX Reverb
+  m_MixLevel: fe82394a31f644b4eb6726ad7b80e51c
+  m_Parameters:
+  - m_ParameterName: Dry Level
+    m_GUID: b30050a80503d4689afe17da39470c67
+  - m_ParameterName: Room
+    m_GUID: 822df9ef522d24755b4eb145fb05965f
+  - m_ParameterName: Room HF
+    m_GUID: 8d59680c0d61b45fca80a1cd1808bfdd
+  - m_ParameterName: Decay Time
+    m_GUID: 8d11fe6e7c46c4dab9477079df179a24
+  - m_ParameterName: Decay HF Ratio
+    m_GUID: 2ccb750c72c8e40818250d4c8b6c19d4
+  - m_ParameterName: Reflections
+    m_GUID: 1a58496cd74114cb7b58c298e3a44a71
+  - m_ParameterName: Reflect Delay
+    m_GUID: 80648639b0b85406184e7453a9d58bbc
+  - m_ParameterName: Reverb
+    m_GUID: 843018baedc03497182facca752103e6
+  - m_ParameterName: Reverb Delay
+    m_GUID: 5f63d3d855cdc4ca886cbe8e40877c95
+  - m_ParameterName: Diffusion
+    m_GUID: 6b48c2c26eed74f5c988a7c788ec27bf
+  - m_ParameterName: Density
+    m_GUID: e4e8df11c5f8b44ad947bc7a04e8266e
+  - m_ParameterName: HF Reference
+    m_GUID: f46b6ef68bb2a4d32adf2a3b7f3e04de
+  - m_ParameterName: Room LF
+    m_GUID: c1c25e79cba574b5db0e40d603fdabf7
+  - m_ParameterName: LF Reference
+    m_GUID: 849c92684429d4cc0ae70ebf399671d9
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &245898634684037086
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 2
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: d6676d8f8835644b19eb71a15b89f193
+  m_FloatValues:
+    b30050a80503d4689afe17da39470c67: -1437
+    5f63d3d855cdc4ca886cbe8e40877c95: 0.09
+    843018baedc03497182facca752103e6: 2000
+    2ccb750c72c8e40818250d4c8b6c19d4: 1.45
+    1a58496cd74114cb7b58c298e3a44a71: 588
+    4076e1dd191bb43be80df9aedc8a36b7: 0.025578514
+    8d11fe6e7c46c4dab9477079df179a24: 16.5
+    822df9ef522d24755b4eb145fb05965f: -756
+  m_TransitionOverrides: {}
